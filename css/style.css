@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 , h3 {
+    font-weight: 600;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* wrapper starts here */
+.wrapper{
+    width: 100%;
+     height: 100vh;
+     background-image: linear-gradient(rgba(0,168,255,0.5),rgba(0,168,255,0.7)),url("../img/com.jpg");
+    background-position: center;
+    color: #fff;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+   
+   
+}
+/* navigation */
+.nav-container{
+    position: relative;
+}
+#mynavigation{
+    background: none;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+   position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    z-index: 10000;
+
+   
+}
+
+span .icon{
+    color: #fff;
+   margin: 0;
+   
+}
+.navbar-toggle {
+  border: none!important;
+    background: none!important;
+   
+}
+.navbar-header{
+    border-bottom: none!important;
+}
+#mynavbar ul li a{
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.5rem;
+   
+}
+#mynavbar ul li{
+    padding: 5px 10px;
+}
+#mynavbar ul li a:hover{
+   
+    background-color: #fff;
+    color: rgba(0,168,255,0.5);
+    border-radius: 100px;
+    transition: all .5s;
+}
+a.navbar-brand{
+    color: #fff!important;
+    font-size: 2rem;
+    margin-right: 2rem!important;
+}
+ /* navigation ends here */
+
+ 
+/* banner-text start here */
+.banner-text{
+    margin-top: 20%;
+    position: relative;
+    top: 100px;
+
+}
+.banner-text h1{
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+.banner-text p{
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.header-button a {
+    padding: 10px 30px;
+    border: 2px solid #fff;
+    width: 100px;
+    height: 40px;
+    border-radius: 100px;
+    background: none;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+   
+}
+.header-button a:hover{
+    text-decoration: none;
+    background-color: #fff;
+    color: rgba(0,168,255,0.5);
+    box-shadow: 0 0 20px 0 rgba(0, 0,0, 0.3);
+    transition: all .5s;
+   
+}
+
+/* banner-text ends */
+
+ 
+
+
+/* three section starts here */
+.custom-row{
+    padding: 90px 0px;
+}
+.three-section{
+    font-size: 1.5rem;
+    border-radius: 3px;
+    padding: 20px 10px;
+    line-height: 2rem;
+}
+.three-section:hover{
+    box-shadow: 0 0 20px 0 rgba(0, 0,0, 0.3);
+    transform: translateY(-20px);
+    transition: all .5s;
+   
+}
+.three-section p{
+    color: grey;
+}
+
+/* three-section ends */
+
+/* service starts here */
+.full-wrapper{
+    width: 100%;
+    background-color: var(--dark-800);
+}
+.service h2{
+    font-weight: 600;
+}
+.service p{
+    margin-bottom: 40px;
+    color: grey;
+    
+}
+span{
+    color: rgb(25, 168, 168);
+   
+}
+
+.offer{
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    
+}
+.offer h3{
+    margin-top: 0;
+  
+}
+.offer p{
+    color: grey;
+    line-height: 2.4rem;
+}
+.progress{
+    height: 1.2rem!important;
+}
+
+/* service ends here */
+
+/* project section starts */
+
+.heading h4{
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.bg-wrapper{
+    background-image: linear-gradient(rgba(255,255,255,0.9),rgba(255,255,255,0.7)), url("../img/com.jpg");
+    border: none;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* pricing */
+.pricing{
+    width: 100%;
+  
+    background: linear-gradient(160deg, #16c9f6 55%, #fff 0%);
+}
+
+.pricing h1{
+    color: #fff;
+    font-weight: 600;
+    padding-top: 1.5rem;
+}
+
+.cards{
+    border: 1px solid grey;
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+.cards p{
+    font-size: 1.5rem;
+    color: grey;
+}
+.cards li{
+    list-style: none;
+    line-height: 2.5rem;
+    color: grey;
+   
+}
+ .number{
+    color: #16c9f6;
+    font-size: 3rem;
+    font-weight: 300;
+}
+button {
+    width: 100px;
+    height: 40px;
+    margin-bottom: 3rem;
+   
+}
+.cards:hover{
+    color: #16c9f6;
+    transform: translateY(-20px);
+    box-shadow: 0 0 20px 0 rgba(0, 0,0, 0.3);
+    transition: all .5s;
+   
+}
+hr{
+    border-color: grey;
+}
+/* pricing ends */
+
+/* contact starts */
+
+.contact{
+    width: 100%;
+    
+    background: linear-gradient(160deg, #fff 55%, #16c9f6 0%);
+}
+.white-button{
+    width: 150px;
+    height: 40px;
+  
+    color: #fff;
+    background:none;
+    border: 2px solid #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    letter-spacing: 1px;
+
+}
+.white-button:hover{
+    background-color: #fff;
+    color: #16c9f6;
+    transition: all .5s;
+}
+.contact h1{
+    padding-bottom: 1.5rem;
+}
+.contact p{
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+@media(max-width:774px){
+    .banner-text{
+        top: 220px;
+    }
+    .banner-text h1{
+        font-size: 3rem;
+    }
+    .header-button a{
+        width: 60%;
+        padding: 7px 15px;
+    }
+  
+}
